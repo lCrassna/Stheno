@@ -7,7 +7,7 @@ bugs太多还是自己用吧
 能力者：
 SthenoKeyboard.dylib注入UIKit，干掉
 @interface LaunchTracker: NSObject 
-+ (void)appDidBecomeActive;
+加号(void)appDidBecomeActive;
 @end
 来强制使用未修复键盘，竖屏横向窗口键盘就不要用了。
 同时干掉网页弹窗。
