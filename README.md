@@ -1,2 +1,16 @@
 # Stheno
 bugs太多还是自己用吧
+
+
+插件冲突挺无语
+
+能力者：
+SthenoKeyboard.dylib注入UIKit，干掉
+@interface LaunchTracker: NSObject 
++ (void)appDidBecomeActive;
+@end
+来强制使用未修复键盘，竖屏横向窗口键盘就不要用了。
+同时干掉网页弹窗。
+此注入是适配窗口尺寸、键盘尺寸与键盘弹起高度的。
+
+其它bugs我自己都忍了。
